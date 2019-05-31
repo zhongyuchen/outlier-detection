@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Data
 
-* `consumption_data.xls` is provided. There are 940 3-dimentional entries. The first column is entry ID.
+* `consumption_data.xls` is provided. There are 4 columns with 940 entries. The first column denotes entry ID, which is ignored in detecting outliers. Therefore, the data entries are 3-dimensional.
 * Get numpy array data with size `[940, 3]` with the following code (check out `dataset.py` for implementation):
 
 ```python
