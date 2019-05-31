@@ -50,7 +50,7 @@ For detailed descriptions please see `report.pdf`.
 
 ### Classification based method: SVDD
 
-* SVDD: one class SVM clssification
+* SVDD: one class SVM classification
 * Check out `svdd.py` for implementation.
 * Result with Gaussian kernel:
 
