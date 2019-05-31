@@ -25,7 +25,7 @@ data = get_dataset()
 ```
 
 * Data visualization:
-[data](pic/data.png)
+![data](pic/data.png)
 
 ## Methods
 
@@ -36,24 +36,23 @@ For detailed descriptions please see `report.pdf`.
 * LOF: local outlier factor
 * Check out `lof.py` for implementation.
 * Result:
-[lof](pic/lof.png)
+![lof](pic/lof.png)
 
 ### Cluster based method: DBSCAN
 
 * Check out `dbscan.py` for implementation.
 * Result:
-[dbscan](pic/dbscan.png)
+![dbscan](pic/dbscan.png)
 
 ### Classification based method: SVDD
 
 * SVDD: one class SVM clssification
 * Check out `svdd.py` for implementation.
 * Result with Gaussian kernel:
-[rbf](pic/rbf.png)
+![rbf](pic/rbf.png)
 * Result with linear kernel:
-[linear](pic/linear.png)
+![linear](pic/linear.png)
 
 ## Author
 
 Zhongyu Chen
-
