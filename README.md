@@ -4,7 +4,7 @@
 [![python version](https://img.shields.io/badge/python-3.6.8-purple.svg)](https://python.org)
 [![Apache License](https://img.shields.io/badge/license-Apache2.0-blue.svg)](http://www.apache.org/licenses/)
 
-Detect outliers with 3 methods: LOF, DBSCAN and SVDD
+Detect outliers with 3 methods: LOF, DBSCAN and one-class SVM
 
 ## Prerequisites
 
@@ -33,9 +33,8 @@ data = get_dataset()
 
 For detailed descriptions please see `report.pdf`.
 
-### Density based method: LOF
+### Density based method: LOF (local outlier factor)
 
-* LOF: local outlier factor
 * Check out `lof.py` for implementation.
 * Result:
 
@@ -48,9 +47,8 @@ For detailed descriptions please see `report.pdf`.
 
 ![dbscan](pic/dbscan.png)
 
-### Classification based method: SVDD
+### Classification based method: One-class SVM
 
-* SVDD: one class SVM classification
 * Check out `svdd.py` for implementation.
 * Result with Gaussian kernel:
 
