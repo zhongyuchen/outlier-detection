@@ -45,7 +45,7 @@ def k_distance_neighbor(p, k):
 def local_reachability_density(index):
 	rd = 0.
 	for i in range(len(kdn[index])):
-		rd += min(dis[index][i], dis[kdn[index][i]][-1])
+		rd += max(dis[index][i], dis[kdn[index][i]][-1])
 	return len(kdn[index]) * 1.0 / rd
 
 
